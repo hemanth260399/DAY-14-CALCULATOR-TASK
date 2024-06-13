@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="outerbox">
+    <input type="text" name="result" id="resultarea" class="result" value="" placeholder="0"><br>
+     <button id="C" value="C" onclick=clearall()>C</button>
+     <button id="--" value="--" onclick=backspace()>←</button>
+     <button id="." value="." onclick="number('.')">.</button>
+     <button id="*" value="*" onclick="operator('*')">X</button><br>
+     <button id="7" value="7" onclick="number('7')">7</button>
+     <button id="8" value="8" onclick="number('8')">8</button>
+     <button id="9" value="9" onclick="number('9')">9</button>
+     <button id="/" value="/" onclick="operator('/')">/</button><br>
+     <button id="4" value="4" onclick="number('4')">4</button>
+     <button id="5" value="5" onclick="number('5')">5</button>
+     <button id="6" value="6" onclick="number('6')">6</button>
+     <button id="-" value="-" onclick="operator('-')">-</button><br>
+     <button id="1" value="1" onclick="number('1')">1</button>
+     <button id="2" value="2" onclick="number('2')">2</button>
+     <button id="3" value="3" onclick="number('3')">3</button>
+     <button id="+" value="+" onclick="operator('+')">+</button><br>
+     <button id="0" value="0" onclick="number('0')">0</button>
+     <button id="00" value="00" onclick="number('00')">00</button>
+     <button id="=" value="=" class="equal" onclick=equalto()>=</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
